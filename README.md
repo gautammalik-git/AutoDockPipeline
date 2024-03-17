@@ -4,9 +4,9 @@ AutoDockPipeline: Your one-stop solution for protein-ligand docking. This pipeli
 
 ---
 
-## About AutoDock
-<br>
-This pipeline is built upon **AutoDock4**. 
+## About AutoDock 
+
+This pipeline is built upon **AutoDock4**
 <br>
 AutoDock consists of two main programs:
 
