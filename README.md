@@ -4,7 +4,7 @@ AutoDockPipeline: Your one-stop solution for protein-ligand docking. This pipeli
 
 ---
 
-## Installing AutoDock
+## AutoDock
 
 This pipeline is built upon **AutoDock4**.
 
