@@ -23,8 +23,9 @@ To install AutoDock4 ,visit [AutoDock website](https://autodock.scripps.edu/down
 2. Download the source code file.
 3. Follow the Readme file to install the software.
 4. Make sure to download the MGLtools tar file compatible with your system, which is essential for running both AutoDock GUI (ADT) and AutoDock4. It is available on their [website](https://ccsb.scripps.edu/mgltools/).
-<br>
+
 ### For Mac users:
+
 ADT is currently unavailable for Macs equipped with Apple Silicon chips. Consequently, this pipeline does not support AutoGrid calculations. However, AutoDock remains compatible with Macs featuring Apple Silicon chips. By installing AutoDock GPU, users can run AutoDock on macs and also enhance its performance speed.
 
 ## Installing AutoDock-GPU
