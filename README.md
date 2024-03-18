@@ -34,7 +34,7 @@ ADT is currently unavailable for Macs equipped with Apple Silicon chips. Consequ
 To install AutoGrid, follow the same steps as described above. For faster docking on systems with GPUs, install AutoDock-GPU. 
 
 1. To compile AutoDock-GPU, simply navigate to this [GitHub page](https://github.com/ccsb-scripps/AutoDock-GPU) and follow the provided instructions.
-2. I've created a dedicated repository for AutoDock-GPU, covering the setup process and the entire pipeline. If you're using AutoDock-GPU, you can find more information [here]().
+2. I've created a dedicated repository for AutoDock-GPU, covering the setup process and the entire pipeline. If you're using AutoDock-GPU, you can find more information [here](https://github.com/gautam2002m/AutoDock-GPU-Pipeline).
 
 ## Organizing Files and Setting up Repository
 
