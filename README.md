@@ -112,7 +112,7 @@ For example:
 
 This will generate a new directory named '7k15a_9'. Within this directory, you'll find all the input and output files produced during the docking."
 
-## "Ligand Filteration"
+## Ligand Filteration
 
 ### Binding Energy Filteration
 
@@ -132,10 +132,10 @@ This will generate a new directory named '7k15a_9'. Within this directory, you'l
 
    This will relocate the directories listed in the 'Energy.txt' file. Hence, you can transfer the directories corresponding to the specified binding energies using the 'binding_energy_write.py' script followed by 'full_dir.py'.
 
-### Filtering based on protein-ligand interactions
+## Conclusion
 
-You are now within the 'full_dir' directory, which includes all the directories of ligands exhibiting superior binding energies compared to the gold standard. You might want to filter the
-   
+I suggest using AutoDock-GPU for its faster performance over the CPU version. You can check out my other repository for the AutoDock GPU pipeline, which includes more filtration options as well. Thank you for exploring my repository! I hope you find it valuable for your research or projects. If you have any questions, feedback, or suggestions for improvement, please don't hesitate to reach out or open an issue. I welcome contributions from the community to enhance and expand this project. Happy coding!
+
 
  
 
