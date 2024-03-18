@@ -134,7 +134,7 @@ This will generate a new directory named '7k15a_9'. Within this directory, you'l
 
 ## Conclusion
 
-I suggest using AutoDock-GPU for its faster performance over the CPU version. You can check out my other repository for the AutoDock GPU pipeline, which includes more filtration options as well. Thank you for exploring my repository! I hope you find it valuable for your research or projects. If you have any questions, feedback, or suggestions for improvement, please don't hesitate to reach out or open an issue. I welcome contributions from the community to enhance and expand this project. Happy coding!
+I suggest using AutoDock-GPU for its faster performance over the CPU version. You can check out my other repository for the AutoDock GPU pipeline, which includes more filtration options as well. Thank you for exploring my repository! I hope you find it valuable for your research or projects. If you have any questions, feedback, or suggestions for improvement, please don't hesitate to reach out or open an issue. I welcome contributions from the community to enhance and expand this project. Happy docking!
 
 
  
