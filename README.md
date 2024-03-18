@@ -19,7 +19,7 @@ AutoDock consists of two main programs:
 
 ## Installing AutoDock4 on CPU
 
-To install AutoDock4 ,visit [AutoDock website](https://autodock.scripps.edu/download-autodock4/).
+To install AutoDock4, visit [AutoDock website](https://autodock.scripps.edu/download-autodock4/).
 <br>
 1. Download the AutoDock4 sofware compatible with your system.
 2. Follow the Readme file to install the software.
