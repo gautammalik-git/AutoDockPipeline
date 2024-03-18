@@ -110,7 +110,7 @@ For example:
 <br>
 `python2 dock_centroid.py 7k15.pdb VRJ.pdb 1.9392312138728325,-8.92228901734104,18.28384393063584`
 
-This will generate a new directory named '7k15a_9'. Within this directory, you'll find all the input and output files produced during the docking."
+This will generate a new directory named '7k15a_VRJ'. Within this directory, you'll find all the input and output files produced during the docking."
 
 ## Ligand Filteration
 
