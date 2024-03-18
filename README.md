@@ -63,7 +63,7 @@ cp ./<mgltools-directory>/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_*4.py 
 
 Replace `<autodock-tar.gz>` and `<mgltools-tar.gz>` with the names of the AutoDock and MGLTools tar files you downloaded from the website. Similarly, replace `<autodock-directory>` and `<mgltools-directory>` with the directories you extracted from the respective tar files.
 
-'Repository' serves as the primary directory. It must be present in your working directory whenever docking is conducted.
+**'Repository' serves as the primary directory. It must be present in your working directory whenever docking is conducted.**
 
 ## Pre-Docking Steps
 
@@ -91,13 +91,13 @@ python3 Centroid.py <bind_site>
 ```
 For example:
 <br>
-`python3 Centroid.py 7k15_site.pdb`
+`python3 Centroid.py 7k15site.pdb`
 
 This will print out the <x,y,z> coordinated. 
 
  ## Docking
 
- 1. Change path:
+ 1. Export path:
 
 ```markdown
 export PATH=./Repository/<mgltools-directory>/bin:$PATH
@@ -105,7 +105,7 @@ export PATH=./Repository/<mgltools-directory>/bin:$PATH
 
 2. Perform docking:
 
-Make sure you are in the cwd with all the ligand PDB files, protein PDB file, 'Repository' and all the python scripts attached with this github repository.
+Make sure you are in the working directory with the ligand PDB files, protein PDB file, 'Repository' and all the python scripts attached with this github repository.
 
 ```markdown 
 python3 centroid_lig1.py <prot_name> <x,y,z>
