@@ -112,11 +112,29 @@ For example:
 
 This will generate a new directory named '7k15a_9'. Within this directory, you'll find all the input and output files produced during the docking."
 
-## Analyze docking Results
+## "Ligand Filteration"
 
-1. To get the binding energy values out from the dlg file:
+### Binding Energy Filteration
 
-   `python3 binding_energy.py`
+1.Now, we aim to obtain the binding energy values of the docked ligands. Typically, we seek to compare these values against a gold standard. This code will provide the binding energy values within the specified range. For instance, selecting '-7' as the argument will retrieve the names of the complexes with binding energies ranging from -7.0 to -7.99.
+
+   `python3 binding_energy_write.py <binding_energy_range>`
+
+   You'll receive a file named 'Energy.txt' containing all the binding energies within the specified range.
+
+   If you want to specify digits after decimals, you can use the code
+
+   `python3 binding_energy_decimal_write.py <binding_energy_range> <digit_after_decimal>`
+
+2. We're now prepared to transfer all ligands along with their corresponding docking directories into a new directory to facilitate further analysis. To accomplish this, follow these steps:
+
+   `python3 full_dir.py`
+
+   This will relocate the directories listed in the 'Energy.txt' file. Hence, you can transfer the directories corresponding to the specified binding energies using the 'binding_energy_write.py' script followed by 'full_dir.py'.
+
+### Filtering based on protein-ligand interactions
+
+You are now within the 'full_dir' directory, which includes all the directories of ligands exhibiting superior binding energies compared to the gold standard. You might want to filter the
    
 
  
