@@ -100,8 +100,9 @@ This will print out the <x,y,z> coordinated.
  1. Export path:
 
 ```markdown
-export PATH=./Repository/<mgltools-directory>/bin:$PATH
+export PATH=<PATH_TO_CWD>/Repository/<mgltools-directory>/bin:$PATH
 ```
+Replace <PATH_TO_CWD> with the path of your working directory. You can get it using command 'pwd' in your terminal.
 
 2. Perform docking:
 
